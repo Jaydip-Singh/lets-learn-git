@@ -1,0 +1,78 @@
+import java.util.*;
+public class MyClass 
+{  
+     /*
+    String is array of characters 
+    how to write string,stringbuffer, stringbuilder
+    methods of string and stringbuffer,stringbuilder
+    
+    read concept of string constant pool and others
+    
+    
+     */
+     String []first={null};
+ public static void main(String args[]) 
+    {
+        MyClass obj=new MyClass();
+        obj.string();
+       
+         
+    }
+    void string()
+    {
+      String s="java is awesome";
+      String ss=new String("java is awesome");
+      String p="java";
+      String p1=new String("java");
+    //   String s1=new String("learning java");
+    //   char[]arr={'j','a','v','a'};
+    //   String s2=new String(arr);
+    //   String empty="";
+       System.out.println(p1.intern()==p);//intern methods refers object from string constant pool
+    //   System.out.println(s.indexOf('j'));
+    //   System.out.println(s.isEmpty());
+    //   System.out.println(s.replaceAll("is","was"));
+    //   System.out.println(s.replace("j","J"));
+    //   char c='a';
+    //   int  a=10;
+    //   System.out.println(Character.toString(c));
+    //   System.out.println(String.valueOf(c));
+    //   System.out.println(Integer.toString(a));
+    //   System.out.println(String.valueOf(a));//it is known as type casting also
+      
+      //methods of string
+    //   System.out.println(s.equals(s1));
+    //   System.out.println(s==s1);
+    //   System.out.println(s.concat(s1));
+    //   System.out.println(s.charAt(0));
+    //  System.out.println(s.startsWith("j"));
+    //  System.out.println(s.replace("j",Character.toString(c)));
+    //  System.out.println(s.replace("is",String.valueOf(c)));
+    //  System.out.println(s.substring(0,2));//first one is index and second one is length number
+    //  System.out.println(empty.isEmpty());
+    //  System.out.println(s.isEmpty());
+    //  System.out.println(s.equalsIgnoreCase(ss));
+     
+    // char[]array1= s.toCharArray();
+    //  String array2[]=s.split(" ");
+    //  Arrays.sort(array1);//sorting array elements
+    //  Arrays.sort(array2);
+    //  System.out.println("retrieving data from above arrays");
+    //  for(char elements:array1)
+    //  {
+        
+    //      System.out.println(elements);
+    //  }
+     
+       
+    //  for(String elements:array2)
+    //  {
+    //      System.out.println(elements);
+    //  }
+      
+        
+    }
+   
+    
+    
+}
